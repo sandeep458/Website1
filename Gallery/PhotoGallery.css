@@ -1,0 +1,51 @@
+
+.new-heading {
+    color: blue;
+    
+    font-size:2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.new-photo {
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 90px; 
+     row-gap: 75px;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    padding:10px;
+    box-sizing: border-box;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.galleryinput {
+    width:34px;
+    height:24px;
+    text-align: center;
+    margin:0 5px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    color:#099;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    cursor: text;
+    appearance: textfield;
+    font:400 13.333px;
+}

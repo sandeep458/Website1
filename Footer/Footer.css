@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.footer-class {
+    font-size: 0.95rem;
+    color:#999;
+    background-color: white;
+    padding-bottom: 1rem!important;
+    padding-top: 3rem!important;
+    display: block;
+}
+.new-footer {
+    max-width: 1050px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-a {
+    padding-right:3rem!important;
+    padding-left: 3rem!important;
+    margin-bottom: 3rem!important;
+
+}
+@media(min-width:768px){
+.row-a {
+flex:0 0 auto;
+width: 50%;
+}
+}
+.new-heading {
+    font-size: 1.4rem;
+    color:#099;
+    margin-bottom: 1.5rem!important;
+}
+p {
+    color:#999;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-block-end:1em ;
+    margin-inline-start: 0px;
+}
+.row-b {
+    padding-right:3rem!important;
+    padding-left: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+@media(min-width:992px){
+    .row-a {
+    flex:0 0 auto;
+    width: 25%;
+    }
+    }
+    .header {
+        font-size: 1.4rem;
+        color:#099;
+        margin-bottom: 1.5rem!important;
+    }
+    .new-link {
+        padding-left: 0!important;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .new-link li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+.main-link {
+    padding-left: 0!important;
+    margin-bottom: 3rem!important;
+    justify-content: flex-end!important;
+    display: flex!important;
+}
+.main-link li {
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: .5rem!important;
+}
+.main-link li a {
+    color:#999;
+    width:44px;
+    height:44px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.fab {
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+}
+.link-a {
+    color:#999;
+    text-align: right!important;
+    margin-bottom: .5rem!important;
+    display: block!important;
+
+}
+.input-link {
+    padding-right:3rem!important;
+    padding-left: 3rem!important;
+    margin-bottom: 1rem!important;
+}
+@media(min-width:992px){
+    .input-link {
+        flex:0 0 auto;
+        width:66.67%
+    }
+}
+.output-link {
+    text-align: right!important;
+    padding-right:3rem!important;
+    padding-left: 3rem!important;
+}
+@media(min-width:992px){
+    .output-link {
+        flex:0 0 auto;
+        width:33.3%
+    }
+}

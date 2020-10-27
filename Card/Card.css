@@ -1,0 +1,10 @@
+.cardViews {
+    justify-content: space-between;
+    /* align-items: center; */
+    display: flex;
+
+    
+}
+.photo-a{
+    width:340px;
+}
